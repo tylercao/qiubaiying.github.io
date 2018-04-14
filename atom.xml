@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>技术成长</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2018-04-14T14:19:18.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://caolinhua.me/"/>
+  <updated>2018-03-11T10:25:11.000Z</updated>
+  <id>http://caolinhua.me/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>曹林华</name>
     
   </author>
   
@@ -18,71 +18,8 @@
   
   <entry>
     <title>秒杀架构设计</title>
-    <link href="http://yoursite.com/2018/04/14/%E7%A7%92%E6%9D%80%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
-    <id>http://yoursite.com/2018/04/14/秒杀架构设计/</id>
-    <published>2018-04-14T14:19:18.000Z</published>
-    <updated>2018-04-14T14:19:18.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>秒杀架构设计.md</title>
-    <link href="http://yoursite.com/2018/04/14/%E7%A7%92%E6%9D%80%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1-md/"/>
-    <id>http://yoursite.com/2018/04/14/秒杀架构设计-md/</id>
-    <published>2018-04-14T14:19:09.000Z</published>
-    <updated>2018-04-14T14:19:09.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2018/04/14/test/"/>
-    <id>http://yoursite.com/2018/04/14/test/</id>
-    <published>2018-04-14T13:34:34.000Z</published>
-    <updated>2018-04-14T13:34:34.000Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/04/14/hello-world/"/>
-    <id>http://yoursite.com/2018/04/14/hello-world/</id>
-    <published>2018-04-14T13:31:44.000Z</published>
-    <updated>2018-04-14T13:31:44.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>秒杀架构设计</title>
-    <link href="http://yoursite.com/2018/03/11/2018-3-11-%E7%A7%92%E6%9D%80%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
-    <id>http://yoursite.com/2018/03/11/2018-3-11-秒杀架构设计/</id>
+    <link href="http://caolinhua.me/2018/03/11/2018-3-11-%E7%A7%92%E6%9D%80%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+    <id>http://caolinhua.me/2018/03/11/2018-3-11-秒杀架构设计/</id>
     <published>2018-03-10T16:00:00.000Z</published>
     <updated>2018-03-11T10:25:11.000Z</updated>
     
@@ -99,14 +36,14 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://yoursite.com/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
   <entry>
     <title>区块链认知</title>
-    <link href="http://yoursite.com/2018/02/04/2018-2-04-%E5%8C%BA%E5%9D%97%E9%93%BE%E8%AE%A4%E7%9F%A5/"/>
-    <id>http://yoursite.com/2018/02/04/2018-2-04-区块链认知/</id>
+    <link href="http://caolinhua.me/2018/02/04/2018-2-04-%E5%8C%BA%E5%9D%97%E9%93%BE%E8%AE%A4%E7%9F%A5/"/>
+    <id>http://caolinhua.me/2018/02/04/2018-2-04-区块链认知/</id>
     <published>2018-02-03T16:00:00.000Z</published>
     <updated>2018-02-04T13:24:07.000Z</updated>
     
@@ -123,14 +60,14 @@
     </summary>
     
     
-      <category term="业界技术" scheme="http://yoursite.com/tags/%E4%B8%9A%E7%95%8C%E6%8A%80%E6%9C%AF/"/>
+      <category term="业界技术" scheme="http://caolinhua.me/tags/%E4%B8%9A%E7%95%8C%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>全链路跟踪设计与实践</title>
-    <link href="http://yoursite.com/2018/01/31/2018-1-31-%20%E5%85%A8%E9%93%BE%E8%B7%AF%E8%B7%9F%E8%B8%AA%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E8%B7%B5/"/>
-    <id>http://yoursite.com/2018/01/31/2018-1-31- 全链路跟踪设计与实践/</id>
+    <link href="http://caolinhua.me/2018/01/31/2018-1-31-%20%E5%85%A8%E9%93%BE%E8%B7%AF%E8%B7%9F%E8%B8%AA%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E8%B7%B5/"/>
+    <id>http://caolinhua.me/2018/01/31/2018-1-31- 全链路跟踪设计与实践/</id>
     <published>2018-01-30T16:00:00.000Z</published>
     <updated>2018-01-31T02:53:45.000Z</updated>
     
@@ -146,14 +83,14 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://yoursite.com/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
   <entry>
     <title>如何确定线程池大小</title>
-    <link href="http://yoursite.com/2017/12/30/2017-12-30-%20%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%A4%A7%E5%B0%8F/"/>
-    <id>http://yoursite.com/2017/12/30/2017-12-30- 线程池大小/</id>
+    <link href="http://caolinhua.me/2017/12/30/2017-12-30-%20%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%A4%A7%E5%B0%8F/"/>
+    <id>http://caolinhua.me/2017/12/30/2017-12-30- 线程池大小/</id>
     <published>2017-12-29T16:00:00.000Z</published>
     <updated>2017-12-30T09:15:59.000Z</updated>
     
@@ -171,14 +108,14 @@
     </summary>
     
     
-      <category term="软件研发" scheme="http://yoursite.com/tags/%E8%BD%AF%E4%BB%B6%E7%A0%94%E5%8F%91/"/>
+      <category term="软件研发" scheme="http://caolinhua.me/tags/%E8%BD%AF%E4%BB%B6%E7%A0%94%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title>系统思考</title>
-    <link href="http://yoursite.com/2017/12/24/2017-12-24-%20%E7%B3%BB%E7%BB%9F%E6%80%9D%E8%80%83/"/>
-    <id>http://yoursite.com/2017/12/24/2017-12-24- 系统思考/</id>
+    <link href="http://caolinhua.me/2017/12/24/2017-12-24-%20%E7%B3%BB%E7%BB%9F%E6%80%9D%E8%80%83/"/>
+    <id>http://caolinhua.me/2017/12/24/2017-12-24- 系统思考/</id>
     <published>2017-12-23T16:00:00.000Z</published>
     <updated>2017-12-24T12:32:25.000Z</updated>
     
@@ -195,14 +132,14 @@
     </summary>
     
     
-      <category term="思考思维" scheme="http://yoursite.com/tags/%E6%80%9D%E8%80%83%E6%80%9D%E7%BB%B4/"/>
+      <category term="思考思维" scheme="http://caolinhua.me/tags/%E6%80%9D%E8%80%83%E6%80%9D%E7%BB%B4/"/>
     
   </entry>
   
   <entry>
     <title>用户中心设计</title>
-    <link href="http://yoursite.com/2017/12/17/2017-12-17-%20%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/"/>
-    <id>http://yoursite.com/2017/12/17/2017-12-17- 用户中心系统设计/</id>
+    <link href="http://caolinhua.me/2017/12/17/2017-12-17-%20%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/"/>
+    <id>http://caolinhua.me/2017/12/17/2017-12-17- 用户中心系统设计/</id>
     <published>2017-12-16T16:00:00.000Z</published>
     <updated>2017-12-17T13:32:33.000Z</updated>
     
@@ -219,62 +156,14 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://yoursite.com/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>技术演讲需要准备什么</title>
-    <link href="http://yoursite.com/2017/12/03/2017-12-11-%E6%8A%80%E6%9C%AF%E6%BC%94%E8%AE%B2%E9%9C%80%E8%A6%81%E5%87%86%E5%A4%87%E4%BB%80%E4%B9%88/"/>
-    <id>http://yoursite.com/2017/12/03/2017-12-11-技术演讲需要准备什么/</id>
-    <published>2017-12-02T16:00:00.000Z</published>
-    <updated>2017-12-11T15:01:33.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近参加了 SA Summit 2017 的技术大会分享，在这边总结下并分享一下自己是如何准备的。请老司机们多提点建议。</p><h2 id="一、了解观众的诉求"><a href="#一、了解观众的诉求" class="headerlink" title="一、了解观众的诉求"></a>一、了解观众的诉求</h2><p>了解需求永远是做任何事的第一步，脱离了观众的诉求都是偏题的。</p><p>首先需要知道这次技术分享的主题大方向是什么？是分布式架构、前端架构，还是运维架构。<br>同时需要考虑到你的听众是谁？是 5 年以上的架构师，还是 3 年左右的工程师，不一样的听众背景决定了分享的侧重点，只有考虑到了听众的技术背景，才能有针对性的思考哪些内容可以详细解释，哪些可以一笔带过。</p><h2 id="二、好的开始是成功的一半"><a href="#二、好的开始是成功的一半" class="headerlink" title="二、好的开始是成功的一半"></a>二、好的开始是成功的一半</h2><p>开头的几分钟主要是自我介绍、演讲大纲介绍。一般自我介绍的时候，主要告诉大家</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是谁？</span><br><span class="line">来自什么公司？</span><br><span class="line">目前是什么职位及相关的从业经历</span><br></pre></td></tr></table></figure><p>表达好自我介绍后，一定要告诉听众此次演讲对大家有什么好处。听完之后大家会收获什么知识，能够解决什么问题。</p><p>如果安全的度过开始的三分钟，对应的紧张的情绪会极大的缓解。此时可以全神贯注的进行后面分享的内容。</p><p>举个这个分享用过的例子</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">大家好，我是来自 XX 公司的架构师 XXX </span><br><span class="line">我原先在百度负责过 XX 系统，具有高并发、大流量的架构经验</span><br><span class="line">接下来我会带着大家介绍 XX 公司 XX 系统的具体实践</span><br><span class="line">通过本次分享，希望大家能学到通过使用 XX 能很好的解决公司 XX 问题</span><br></pre></td></tr></table></figure><p>同时提点小的建议</p><ul><li>提前来到现场 ：与前排的听众进行简单的沟通，熟悉一下，可以减少很大的压力</li><li>分享前进行小调查 : 在坐的各位原来使用过这个 XX 技术吗？通过举手来进行互动与反馈</li></ul><h2 id="三、内容思路"><a href="#三、内容思路" class="headerlink" title="三、内容思路"></a>三、内容思路</h2><p>暖场后，最重要的就是演讲的思路，一般技术型演讲通过总分总的结构比较合适</p><blockquote><p>问题背景 - 方案对比 - 方案落地 - 方案收益 - 总结</p></blockquote><ul><li>问题背景 ： 了解下问题产生的原因是什么？为什么要解决这个问题？</li><li>方案对比 ： 带着听众进行方案的思路以及优劣对比，最好有真实的数据展示</li><li>方案落地 ： 让听众了解具体方案落地，有哪些需要注意的坑，通过什么方法能解决这些问题</li><li>方案收益 ： 落地之后，需要拿出真实的数据，体现出实施该方案的好处</li><li>总结 ： 总结下实施过程的经验，以及后续的一些规划</li></ul><h2 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a>四、总结</h2><p>最后演讲结束的时候，一定要进行总结，反复强调需要分享给听众的观点，最好不超过 3 个。这个部分不在多，而在于精，只要听众了解一个哪怕一个观点也是有收货的</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;最近参加了 SA Summit 2017 的技术大会分享，在这边总结下并分享一下自己是如何准备的。请老司机们多提点建议。&lt;/p&gt;
-&lt;h2 id=&quot;一、了解观众的诉求&quot;&gt;&lt;a href=&quot;#一、了解观众的诉求&quot; class=&quot;headerlink&quot; title=&quot;一、了解观众
-      
-    
-    </summary>
-    
-    
-      <category term="演讲分享" scheme="http://yoursite.com/tags/%E6%BC%94%E8%AE%B2%E5%88%86%E4%BA%AB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>容量规划</title>
-    <link href="http://yoursite.com/2017/12/03/2017-12-05-%E5%AE%B9%E9%87%8F%E8%A7%84%E5%88%92/"/>
-    <id>http://yoursite.com/2017/12/03/2017-12-05-容量规划/</id>
-    <published>2017-12-02T16:00:00.000Z</published>
-    <updated>2017-12-07T09:03:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>当我们在做大促，类似于双十一的活动时候，老板就会跑过来问我们这些问题</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1.线上服务能承受多大的访问量</span><br><span class="line">2.单台服务器能承受多大的访问量</span><br><span class="line">3.需要加机器吗？需要加多少台机器</span><br></pre></td></tr></table></figure><p>这个时候，就体现出容量规划的重要性了。那到底什么是容量规划呢？</p><blockquote><p>容量规划是以当前的性能作为基线，来决定你需要什么及什么时候需要</p></blockquote><h2 id="容量-VS-性能"><a href="#容量-VS-性能" class="headerlink" title="容量 VS 性能"></a>容量 VS 性能</h2><ul><li>性能：决定一辆车能装什么东西</li><li>容量：决定需要多少量车</li></ul><p>容量规划可以分解为下面 4 个步骤</p><ul><li>明确目标</li><li>收集指标</li><li>趋势预测</li><li>容量部署</li></ul><h2 id="明确目标"><a href="#明确目标" class="headerlink" title="明确目标"></a>明确目标</h2><blockquote><p>在没有明确网站需求之前，不应该开始容量规划。</p></blockquote><p>一般每个服务都有对外承诺的服务质量，那么我们就需要根据这个目标来做容量规划及硬件方面的投入。</p><p>比如 A 网站能承受 3000 QPS，响应时间小于 200 ms。</p><p><strong>SLA (服务等级协议)</strong></p><p><img src="http://images2017.cnblogs.com/blog/524680/201712/524680-20171206222454253-53627087.jpg" alt=""></p><h2 id="收集指标"><a href="#收集指标" class="headerlink" title="收集指标"></a>收集指标</h2><blockquote><p>不知道当前服务能承受的容量范围的话，不建议进行容量方面的规划。</p></blockquote><p>我们需要通过测试来了解当前服务的数据指标。没有测试出你的服务上限的话，规划出来也是没有效果的。</p><p>测试主要分为下面 2 个步骤</p><ul><li>测试服务器的主要功能 ：业务维度 QPS、TPS</li><li>测试服务器硬件资源 ： CPU、内存、硬盘、网络</li></ul><h2 id="趋势预测"><a href="#趋势预测" class="headerlink" title="趋势预测"></a>趋势预测</h2><blockquote><p>预测容量是一个持续的过程，需要靠数学与直觉来进行精确的预测。</p></blockquote><p>整体过程如下</p><ul><li>首先确定资源度量指标 ：比如内存消耗、硬盘消耗、CPU 消耗</li><li>其实对拥有的资源确定约束访问 : 比如 总内存大小、总硬盘大小等</li><li>最后根据监控趋势图（ Zabbix 、Metrics）算出具体容量超出时间点 ： 比如内存何时会耗尽</li></ul><h2 id="容量部署"><a href="#容量部署" class="headerlink" title="容量部署"></a>容量部署</h2><p>一旦确定未来需要多少容量才能满足业务需求，就可以着手新的设备，并进行部署。</p><p>通过自动化部署工具（ Ansible、 Salt ） 最大限度的减少部署时间</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li>Web容量规划的艺术 <a href="https://book.douban.com/subject/4200645/" target="_blank" rel="noopener">https://book.douban.com/subject/4200645/</a></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;当我们在做大促，类似于双十一的活动时候，老板就会跑过来问我们这些问题&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;
-      
-    
-    </summary>
-    
-    
-      <category term="架构设计" scheme="http://yoursite.com/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
   <entry>
     <title>技术管理</title>
-    <link href="http://yoursite.com/2017/12/03/2017-12-03-%E6%8A%80%E6%9C%AF%E7%AE%A1%E7%90%86/"/>
-    <id>http://yoursite.com/2017/12/03/2017-12-03-技术管理/</id>
+    <link href="http://caolinhua.me/2017/12/03/2017-12-03-%E6%8A%80%E6%9C%AF%E7%AE%A1%E7%90%86/"/>
+    <id>http://caolinhua.me/2017/12/03/2017-12-03-技术管理/</id>
     <published>2017-12-02T16:00:00.000Z</published>
     <updated>2017-12-19T14:19:21.000Z</updated>
     
@@ -291,14 +180,62 @@
     </summary>
     
     
-      <category term="研发管理" scheme="http://yoursite.com/tags/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/"/>
+      <category term="研发管理" scheme="http://caolinhua.me/tags/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>容量规划</title>
+    <link href="http://caolinhua.me/2017/12/03/2017-12-05-%E5%AE%B9%E9%87%8F%E8%A7%84%E5%88%92/"/>
+    <id>http://caolinhua.me/2017/12/03/2017-12-05-容量规划/</id>
+    <published>2017-12-02T16:00:00.000Z</published>
+    <updated>2017-12-07T09:03:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>当我们在做大促，类似于双十一的活动时候，老板就会跑过来问我们这些问题</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1.线上服务能承受多大的访问量</span><br><span class="line">2.单台服务器能承受多大的访问量</span><br><span class="line">3.需要加机器吗？需要加多少台机器</span><br></pre></td></tr></table></figure><p>这个时候，就体现出容量规划的重要性了。那到底什么是容量规划呢？</p><blockquote><p>容量规划是以当前的性能作为基线，来决定你需要什么及什么时候需要</p></blockquote><h2 id="容量-VS-性能"><a href="#容量-VS-性能" class="headerlink" title="容量 VS 性能"></a>容量 VS 性能</h2><ul><li>性能：决定一辆车能装什么东西</li><li>容量：决定需要多少量车</li></ul><p>容量规划可以分解为下面 4 个步骤</p><ul><li>明确目标</li><li>收集指标</li><li>趋势预测</li><li>容量部署</li></ul><h2 id="明确目标"><a href="#明确目标" class="headerlink" title="明确目标"></a>明确目标</h2><blockquote><p>在没有明确网站需求之前，不应该开始容量规划。</p></blockquote><p>一般每个服务都有对外承诺的服务质量，那么我们就需要根据这个目标来做容量规划及硬件方面的投入。</p><p>比如 A 网站能承受 3000 QPS，响应时间小于 200 ms。</p><p><strong>SLA (服务等级协议)</strong></p><p><img src="http://images2017.cnblogs.com/blog/524680/201712/524680-20171206222454253-53627087.jpg" alt=""></p><h2 id="收集指标"><a href="#收集指标" class="headerlink" title="收集指标"></a>收集指标</h2><blockquote><p>不知道当前服务能承受的容量范围的话，不建议进行容量方面的规划。</p></blockquote><p>我们需要通过测试来了解当前服务的数据指标。没有测试出你的服务上限的话，规划出来也是没有效果的。</p><p>测试主要分为下面 2 个步骤</p><ul><li>测试服务器的主要功能 ：业务维度 QPS、TPS</li><li>测试服务器硬件资源 ： CPU、内存、硬盘、网络</li></ul><h2 id="趋势预测"><a href="#趋势预测" class="headerlink" title="趋势预测"></a>趋势预测</h2><blockquote><p>预测容量是一个持续的过程，需要靠数学与直觉来进行精确的预测。</p></blockquote><p>整体过程如下</p><ul><li>首先确定资源度量指标 ：比如内存消耗、硬盘消耗、CPU 消耗</li><li>其实对拥有的资源确定约束访问 : 比如 总内存大小、总硬盘大小等</li><li>最后根据监控趋势图（ Zabbix 、Metrics）算出具体容量超出时间点 ： 比如内存何时会耗尽</li></ul><h2 id="容量部署"><a href="#容量部署" class="headerlink" title="容量部署"></a>容量部署</h2><p>一旦确定未来需要多少容量才能满足业务需求，就可以着手新的设备，并进行部署。</p><p>通过自动化部署工具（ Ansible、 Salt ） 最大限度的减少部署时间</p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li>Web容量规划的艺术 <a href="https://book.douban.com/subject/4200645/" target="_blank" rel="noopener">https://book.douban.com/subject/4200645/</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;当我们在做大促，类似于双十一的活动时候，老板就会跑过来问我们这些问题&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;
+      
+    
+    </summary>
+    
+    
+      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>技术演讲需要准备什么</title>
+    <link href="http://caolinhua.me/2017/12/03/2017-12-11-%E6%8A%80%E6%9C%AF%E6%BC%94%E8%AE%B2%E9%9C%80%E8%A6%81%E5%87%86%E5%A4%87%E4%BB%80%E4%B9%88/"/>
+    <id>http://caolinhua.me/2017/12/03/2017-12-11-技术演讲需要准备什么/</id>
+    <published>2017-12-02T16:00:00.000Z</published>
+    <updated>2017-12-11T15:01:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近参加了 SA Summit 2017 的技术大会分享，在这边总结下并分享一下自己是如何准备的。请老司机们多提点建议。</p><h2 id="一、了解观众的诉求"><a href="#一、了解观众的诉求" class="headerlink" title="一、了解观众的诉求"></a>一、了解观众的诉求</h2><p>了解需求永远是做任何事的第一步，脱离了观众的诉求都是偏题的。</p><p>首先需要知道这次技术分享的主题大方向是什么？是分布式架构、前端架构，还是运维架构。<br>同时需要考虑到你的听众是谁？是 5 年以上的架构师，还是 3 年左右的工程师，不一样的听众背景决定了分享的侧重点，只有考虑到了听众的技术背景，才能有针对性的思考哪些内容可以详细解释，哪些可以一笔带过。</p><h2 id="二、好的开始是成功的一半"><a href="#二、好的开始是成功的一半" class="headerlink" title="二、好的开始是成功的一半"></a>二、好的开始是成功的一半</h2><p>开头的几分钟主要是自我介绍、演讲大纲介绍。一般自我介绍的时候，主要告诉大家</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是谁？</span><br><span class="line">来自什么公司？</span><br><span class="line">目前是什么职位及相关的从业经历</span><br></pre></td></tr></table></figure><p>表达好自我介绍后，一定要告诉听众此次演讲对大家有什么好处。听完之后大家会收获什么知识，能够解决什么问题。</p><p>如果安全的度过开始的三分钟，对应的紧张的情绪会极大的缓解。此时可以全神贯注的进行后面分享的内容。</p><p>举个这个分享用过的例子</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">大家好，我是来自 XX 公司的架构师 XXX </span><br><span class="line">我原先在百度负责过 XX 系统，具有高并发、大流量的架构经验</span><br><span class="line">接下来我会带着大家介绍 XX 公司 XX 系统的具体实践</span><br><span class="line">通过本次分享，希望大家能学到通过使用 XX 能很好的解决公司 XX 问题</span><br></pre></td></tr></table></figure><p>同时提点小的建议</p><ul><li>提前来到现场 ：与前排的听众进行简单的沟通，熟悉一下，可以减少很大的压力</li><li>分享前进行小调查 : 在坐的各位原来使用过这个 XX 技术吗？通过举手来进行互动与反馈</li></ul><h2 id="三、内容思路"><a href="#三、内容思路" class="headerlink" title="三、内容思路"></a>三、内容思路</h2><p>暖场后，最重要的就是演讲的思路，一般技术型演讲通过总分总的结构比较合适</p><blockquote><p>问题背景 - 方案对比 - 方案落地 - 方案收益 - 总结</p></blockquote><ul><li>问题背景 ： 了解下问题产生的原因是什么？为什么要解决这个问题？</li><li>方案对比 ： 带着听众进行方案的思路以及优劣对比，最好有真实的数据展示</li><li>方案落地 ： 让听众了解具体方案落地，有哪些需要注意的坑，通过什么方法能解决这些问题</li><li>方案收益 ： 落地之后，需要拿出真实的数据，体现出实施该方案的好处</li><li>总结 ： 总结下实施过程的经验，以及后续的一些规划</li></ul><h2 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a>四、总结</h2><p>最后演讲结束的时候，一定要进行总结，反复强调需要分享给听众的观点，最好不超过 3 个。这个部分不在多，而在于精，只要听众了解一个哪怕一个观点也是有收货的</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近参加了 SA Summit 2017 的技术大会分享，在这边总结下并分享一下自己是如何准备的。请老司机们多提点建议。&lt;/p&gt;
+&lt;h2 id=&quot;一、了解观众的诉求&quot;&gt;&lt;a href=&quot;#一、了解观众的诉求&quot; class=&quot;headerlink&quot; title=&quot;一、了解观众
+      
+    
+    </summary>
+    
+    
+      <category term="演讲分享" scheme="http://caolinhua.me/tags/%E6%BC%94%E8%AE%B2%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
   <entry>
     <title>分布式一致性想法</title>
-    <link href="http://yoursite.com/2017/11/27/2017-11-27-%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%80%E8%87%B4%E6%80%A7%E7%9A%84%E6%83%B3%E6%B3%95/"/>
-    <id>http://yoursite.com/2017/11/27/2017-11-27-分布式一致性的想法/</id>
+    <link href="http://caolinhua.me/2017/11/27/2017-11-27-%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%80%E8%87%B4%E6%80%A7%E7%9A%84%E6%83%B3%E6%B3%95/"/>
+    <id>http://caolinhua.me/2017/11/27/2017-11-27-分布式一致性的想法/</id>
     <published>2017-11-26T16:00:00.000Z</published>
     <updated>2017-11-27T15:05:53.000Z</updated>
     
@@ -314,16 +251,16 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://yoursite.com/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
-      <category term="分布式" scheme="http://yoursite.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+      <category term="分布式" scheme="http://caolinhua.me/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
     
   </entry>
   
   <entry>
     <title>架构设计思路</title>
-    <link href="http://yoursite.com/2017/11/19/2017-11-19-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF/"/>
-    <id>http://yoursite.com/2017/11/19/2017-11-19-架构设计思路/</id>
+    <link href="http://caolinhua.me/2017/11/19/2017-11-19-%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF/"/>
+    <id>http://caolinhua.me/2017/11/19/2017-11-19-架构设计思路/</id>
     <published>2017-11-18T16:00:00.000Z</published>
     <updated>2017-11-27T15:08:18.000Z</updated>
     
@@ -341,14 +278,14 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://yoursite.com/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
   <entry>
     <title>从 ELK 到 EFK 演进</title>
-    <link href="http://yoursite.com/2017/11/11/2017-11-12-%E4%BB%8EELK%20%E5%88%B0%20EFK/"/>
-    <id>http://yoursite.com/2017/11/11/2017-11-12-从ELK 到 EFK/</id>
+    <link href="http://caolinhua.me/2017/11/11/2017-11-12-%E4%BB%8EELK%20%E5%88%B0%20EFK/"/>
+    <id>http://caolinhua.me/2017/11/11/2017-11-12-从ELK 到 EFK/</id>
     <published>2017-11-10T16:00:00.000Z</published>
     <updated>2017-11-27T15:07:56.000Z</updated>
     
@@ -364,18 +301,18 @@
     </summary>
     
     
-      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://caolinhua.me/tags/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="Elasticsearch" scheme="http://yoursite.com/tags/Elasticsearch/"/>
+      <category term="Elasticsearch" scheme="http://caolinhua.me/tags/Elasticsearch/"/>
     
-      <category term="ELK" scheme="http://yoursite.com/tags/ELK/"/>
+      <category term="ELK" scheme="http://caolinhua.me/tags/ELK/"/>
     
   </entry>
   
   <entry>
     <title>Exception总结</title>
-    <link href="http://yoursite.com/2017/09/24/2017-09-24-Exception%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2017/09/24/2017-09-24-Exception总结/</id>
+    <link href="http://caolinhua.me/2017/09/24/2017-09-24-Exception%E6%80%BB%E7%BB%93/"/>
+    <id>http://caolinhua.me/2017/09/24/2017-09-24-Exception总结/</id>
     <published>2017-09-23T16:00:00.000Z</published>
     <updated>2017-10-15T09:35:18.000Z</updated>
     
@@ -391,14 +328,14 @@
     </summary>
     
     
-      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://caolinhua.me/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>一个项目怎么开发出来</title>
-    <link href="http://yoursite.com/2017/09/23/2017-09-23-%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%E5%87%BA%E6%9D%A5%E7%9A%84%EF%BC%9F/"/>
-    <id>http://yoursite.com/2017/09/23/2017-09-23-一个项目怎么开发出来的？/</id>
+    <link href="http://caolinhua.me/2017/09/23/2017-09-23-%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%E5%87%BA%E6%9D%A5%E7%9A%84%EF%BC%9F/"/>
+    <id>http://caolinhua.me/2017/09/23/2017-09-23-一个项目怎么开发出来的？/</id>
     <published>2017-09-22T16:00:00.000Z</published>
     <updated>2017-11-27T15:07:36.000Z</updated>
     
@@ -420,16 +357,16 @@
     </summary>
     
     
-      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://caolinhua.me/tags/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="项目管理" scheme="http://yoursite.com/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+      <category term="项目管理" scheme="http://caolinhua.me/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>搜索平台化之路</title>
-    <link href="http://yoursite.com/2017/07/23/2017-07-23-%E6%90%9C%E7%B4%A2%E5%AE%9E%E8%B7%B5/"/>
-    <id>http://yoursite.com/2017/07/23/2017-07-23-搜索实践/</id>
+    <link href="http://caolinhua.me/2017/07/23/2017-07-23-%E6%90%9C%E7%B4%A2%E5%AE%9E%E8%B7%B5/"/>
+    <id>http://caolinhua.me/2017/07/23/2017-07-23-搜索实践/</id>
     <published>2017-07-22T16:00:00.000Z</published>
     <updated>2017-11-27T15:07:18.000Z</updated>
     
@@ -445,16 +382,16 @@
     </summary>
     
     
-      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://caolinhua.me/tags/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="Elasticsearch" scheme="http://yoursite.com/tags/Elasticsearch/"/>
+      <category term="Elasticsearch" scheme="http://caolinhua.me/tags/Elasticsearch/"/>
     
   </entry>
   
   <entry>
     <title>分布式跟踪调研与设计</title>
-    <link href="http://yoursite.com/2017/07/23/2017-07-23-%E5%88%86%E5%B8%83%E5%BC%8F%E8%B7%9F%E8%B8%AA%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%A0%94/"/>
-    <id>http://yoursite.com/2017/07/23/2017-07-23-分布式跟踪系统调研/</id>
+    <link href="http://caolinhua.me/2017/07/23/2017-07-23-%E5%88%86%E5%B8%83%E5%BC%8F%E8%B7%9F%E8%B8%AA%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%A0%94/"/>
+    <id>http://caolinhua.me/2017/07/23/2017-07-23-分布式跟踪系统调研/</id>
     <published>2017-07-22T16:00:00.000Z</published>
     <updated>2017-11-27T15:06:24.000Z</updated>
     
@@ -470,9 +407,9 @@
     </summary>
     
     
-      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://caolinhua.me/tags/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="分布式跟踪" scheme="http://yoursite.com/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E8%B7%9F%E8%B8%AA/"/>
+      <category term="分布式跟踪" scheme="http://caolinhua.me/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E8%B7%9F%E8%B8%AA/"/>
     
   </entry>
   
