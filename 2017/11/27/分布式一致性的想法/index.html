@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 分布式一致性想法 · 技术成长</title><meta name="description" content="分布式一致性想法 - 曹林华"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://caolinhua.me/atom.xml" title="技术成长"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="http://weibo.com/sunchongsheng" target="_blank" class="nav-list-link">WEIBO</a></li><li class="nav-list-item"><a href="https://github.com/pinggod" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">分布式一致性想法</h1><div class="post-info">2017年11月27日</div><div class="post-content"><h1 id="分布式一致性想法"><a href="#分布式一致性想法" class="headerlink" title="分布式一致性想法"></a>分布式一致性想法</h1><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>最近一直在思考，工作这么多年下遇到的分布式系统的一下问题，以及针对这些问题提供的解决方案。<br>借这个机会，顺便梳理清楚这块知识，希望同大家一起探讨下</p>
+<h2 id="常见一致性问题"><a href="#常见一致性问题" class="headerlink" title="常见一致性问题"></a>常见一致性问题</h2><h3 id="下订单减库存"><a href="#下订单减库存" class="headerlink" title="下订单减库存"></a>下订单减库存</h3><p>在我们做的电商系统中，会有这样的一个场景：用户下单购买某个商品，然后进行扣减商品库存的场景。</p>
+<ul>
+<li>如果先下订单，然后扣减库存，会导致<strong>超卖</strong></li>
+<li>如果下订单失败，扣减库存成功，那么会导致<strong>少卖</strong></li>
+</ul>
+<p>这两种情况的发生都会导致我们系统出现一致性的问题，严重的话，需要对用户做出一定的经济补偿。</p>
+<h3 id="调用超时"><a href="#调用超时" class="headerlink" title="调用超时"></a>调用超时</h3><p>业务开发的过程中，肯定会有我们维护的服务调用其他团队的服务，即使在机房内部进行网络调用，也或多或少的存在系统调用超时的现象，如果出现这样的现象，我们该怎么解决呢？</p>
+<h2 id="解决一致性问题的思路"><a href="#解决一致性问题的思路" class="headerlink" title="解决一致性问题的思路"></a>解决一致性问题的思路</h2><h3 id="酸碱中和"><a href="#酸碱中和" class="headerlink" title="酸碱中和"></a>酸碱中和</h3><p>ACID ： 酸， BASE：碱，其实就是酸碱中和的原理</p>
+<h4 id="1-ACID"><a href="#1-ACID" class="headerlink" title="1. ACID"></a>1. ACID</h4><p>ACID，是指数据库管理系统在写入数据过程中，为保证事务是正确可靠性。<br>所必须具备的四个特性：</p>
+<ul>
+<li>A: Atomicity 原子性 一个事务（transaction）中的所有操作，要么全部完成，要么全部不完成，不会结束在中间某个环节</li>
+<li>C: Consistency 一致性 事务开始之前和事务结束以后，数据库的完整性没有被破坏</li>
+<li>I: Isolation 隔离性 数据库允许多个并发事务同时对其数据进行读写和修改的能力，隔离性可以防止多个事务并发执行时由于交叉执行而导致数据的不一致。事务隔离分为不同级别，包括读未提交（Read uncommitted）、读提交（read committed）、可重复读（repeatable read）和串行化（Serializable）</li>
+<li>D: Durability 持久性 事务处理结束后，对数据的修改就是永久的，即便系统故障也不会丢失</li>
+</ul>
+<p>像 MySQL、Oracle 这样关系型数据库是支持 ACID 特性的强一致性要求的。本身强一致性就不允许出现不一致性的问题，底层都是通过 MVCC 来控制实现的</p>
+<p>刚刚上面提到的下订单减库存就可以关系型数据库的强一致性来解决。将订单表与库存表放在一个数据库 Instance 中，通过数据库 ACID 的特性来解决少卖或者超卖的问题。</p>
+<p>但是如果遇到数据量比较大的情况怎么办？订单表有多张，我们该怎么解决呢？</p>
+<p>其实，即使遇到订单表进行拆分，我们可以仍然采用数据库 ACID 的特性来解决。怎么弄？我们可以将订单表的拆表维度与库存表的拆分维度控制在一个数据分片中，但是具体怎么拆分呢？需要各位根据自己的业务规则来划分开来</p>
+<h4 id="2-BASE"><a href="#2-BASE" class="headerlink" title="2. BASE"></a>2. BASE</h4><p>BASE 思想解决了 CAP 提出的分布式一致性与可用性不能同时兼顾的问题。BASE 思想与 ACID 思想截然不同，它其实是满足 CAP 理论，通过牺牲强一致性来换取可用性。<br>BASE 理论：</p>
+<ul>
+<li>BA：Basically Available，基本可用性</li>
+<li>S: Soft State 软状态 接受状态在一段时间内部同步</li>
+<li>E：Eventually Consistent 最终一致性 在一定的时间窗口中，最终数据达成一致即可</li>
+</ul>
+<p>软状态是实现 BASE 的方法，基本可用域最终一致性是必须到达的目标。以 BASE 的思想由于不保证强一致性，所有接受系统在一定时间内数据存在不一致，不过在处理请求的过程中，需要记录知道每次请求的状态，以后出现问题的时候，回滚到中间任何临时状态，达到最终一致性</p>
+<h4 id="3-CAP"><a href="#3-CAP" class="headerlink" title="3. CAP"></a>3. CAP</h4><p>当我们服务发展越来越多，是不可避免就会需要将服务进行拆分。一旦服务进行拆分后，它就不在是一个单机的系统，而是通俗意义上的分布式系统。说到分布式系统，我们一定要说下最为经典的帽子理论。如果我都没有听说过帽子理论，我出门都不好意思打招呼。<br>分布式系统 CAP 理论：</p>
+<ul>
+<li>C: Consistence 一致性 所有节点访问同一份最新的数据副本</li>
+<li>A: Availability 可用性 每次请求都能在有限的时间内获取到响应——但是不保证获取的数据为最新数据</li>
+<li>P: Network partitioning 分区容错性 尽管网络上有部分消息丢失，但仍然可以继续工作</li>
+</ul>
+<p>CAP 原理证明：分布式系统只能满足三项中的两项而不可能满足全部三项。理解 CAP 理论的最简单方式就是想象两个节点处在 2 个机房中。允许至少一个节点更新状态会导致数据不一致，即丧失了 C 性质。如果为了保证数据一致性，将分区一侧的节点设置为不可用，那么又丧失了 A 性质。除非两个节点可以互相通信，才能既保证C 又保证 A，这又会导致丧失P性质。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>本次文章介绍 ACID、CAP 和 BASE 思想。在传统数据库领域中采用 ACID 理论，追求强一致性。但是在大型分布式系统中，采用 BASE 的设计思想，通过牺牲强一致性来获取高可用性及最终的一致性。两种设计理念截然不同，大家需要根据自己的业务场景，来决定到底哪用方式。</p>
+<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul>
+<li>分布式服务架构原理、设计与实战</li>
+</ul>
+</div></article></div></main><footer><div class="paginator"><a href="/2017/12/03/技术管理/" class="prev">PREV</a><a href="/2017/11/19/架构设计思路/" class="next">NEXT</a></div><div class="copyright"><p>© 2015 - 2018 <a href="http://caolinhua.me">曹林华</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
