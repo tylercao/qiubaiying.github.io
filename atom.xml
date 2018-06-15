@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://caolinhua.me/"/>
+  <link href="http://tylercao.coding.me/blog/"/>
   <updated>2018-04-15T07:48:59.000Z</updated>
-  <id>http://caolinhua.me/</id>
+  <id>http://tylercao.coding.me/blog/</id>
   
   <author>
     <name>曹林华</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>秒杀架构设计</title>
-    <link href="http://caolinhua.me/2018/03/11/%E7%A7%92%E6%9D%80%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
-    <id>http://caolinhua.me/2018/03/11/秒杀架构设计/</id>
+    <link href="http://tylercao.coding.me/blog/2018/03/11/%E7%A7%92%E6%9D%80%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+    <id>http://tylercao.coding.me/blog/2018/03/11/秒杀架构设计/</id>
     <published>2018-03-10T16:00:00.000Z</published>
     <updated>2018-04-15T07:48:59.000Z</updated>
     
@@ -32,14 +32,14 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+      <category term="架构设计" scheme="http://tylercao.coding.me/blog/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
   <entry>
     <title>区块链认知</title>
-    <link href="http://caolinhua.me/2018/02/04/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%AE%A4%E7%9F%A5/"/>
-    <id>http://caolinhua.me/2018/02/04/区块链认知/</id>
+    <link href="http://tylercao.coding.me/blog/2018/02/04/%E5%8C%BA%E5%9D%97%E9%93%BE%E8%AE%A4%E7%9F%A5/"/>
+    <id>http://tylercao.coding.me/blog/2018/02/04/区块链认知/</id>
     <published>2018-02-03T16:00:00.000Z</published>
     <updated>2018-04-15T07:50:50.000Z</updated>
     
@@ -53,14 +53,14 @@
     </summary>
     
     
-      <category term="业界技术" scheme="http://caolinhua.me/tags/%E4%B8%9A%E7%95%8C%E6%8A%80%E6%9C%AF/"/>
+      <category term="业界技术" scheme="http://tylercao.coding.me/blog/tags/%E4%B8%9A%E7%95%8C%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>全链路跟踪设计与实践</title>
-    <link href="http://caolinhua.me/2018/01/31/%E5%85%A8%E9%93%BE%E8%B7%AF%E8%B7%9F%E8%B8%AA%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E8%B7%B5/"/>
-    <id>http://caolinhua.me/2018/01/31/全链路跟踪设计与实践/</id>
+    <link href="http://tylercao.coding.me/blog/2018/01/31/%E5%85%A8%E9%93%BE%E8%B7%AF%E8%B7%9F%E8%B8%AA%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E8%B7%B5/"/>
+    <id>http://tylercao.coding.me/blog/2018/01/31/全链路跟踪设计与实践/</id>
     <published>2018-01-30T16:00:00.000Z</published>
     <updated>2018-04-15T07:51:02.000Z</updated>
     
@@ -73,14 +73,14 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+      <category term="架构设计" scheme="http://tylercao.coding.me/blog/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
   <entry>
     <title>如何确定线程池大小</title>
-    <link href="http://caolinhua.me/2017/12/30/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%A4%A7%E5%B0%8F/"/>
-    <id>http://caolinhua.me/2017/12/30/线程池大小/</id>
+    <link href="http://tylercao.coding.me/blog/2017/12/30/%E7%BA%BF%E7%A8%8B%E6%B1%A0%E5%A4%A7%E5%B0%8F/"/>
+    <id>http://tylercao.coding.me/blog/2017/12/30/线程池大小/</id>
     <published>2017-12-29T16:00:00.000Z</published>
     <updated>2018-04-15T07:51:47.000Z</updated>
     
@@ -95,14 +95,14 @@
     </summary>
     
     
-      <category term="软件研发" scheme="http://caolinhua.me/tags/%E8%BD%AF%E4%BB%B6%E7%A0%94%E5%8F%91/"/>
+      <category term="软件研发" scheme="http://tylercao.coding.me/blog/tags/%E8%BD%AF%E4%BB%B6%E7%A0%94%E5%8F%91/"/>
     
   </entry>
   
   <entry>
     <title>系统思考</title>
-    <link href="http://caolinhua.me/2017/12/24/%E7%B3%BB%E7%BB%9F%E6%80%9D%E8%80%83/"/>
-    <id>http://caolinhua.me/2017/12/24/系统思考/</id>
+    <link href="http://tylercao.coding.me/blog/2017/12/24/%E7%B3%BB%E7%BB%9F%E6%80%9D%E8%80%83/"/>
+    <id>http://tylercao.coding.me/blog/2017/12/24/系统思考/</id>
     <published>2017-12-23T16:00:00.000Z</published>
     <updated>2018-04-15T07:51:38.000Z</updated>
     
@@ -115,14 +115,14 @@
     </summary>
     
     
-      <category term="思考思维" scheme="http://caolinhua.me/tags/%E6%80%9D%E8%80%83%E6%80%9D%E7%BB%B4/"/>
+      <category term="思考思维" scheme="http://tylercao.coding.me/blog/tags/%E6%80%9D%E8%80%83%E6%80%9D%E7%BB%B4/"/>
     
   </entry>
   
   <entry>
     <title>用户中心设计</title>
-    <link href="http://caolinhua.me/2017/12/17/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/"/>
-    <id>http://caolinhua.me/2017/12/17/用户中心系统设计/</id>
+    <link href="http://tylercao.coding.me/blog/2017/12/17/%E7%94%A8%E6%88%B7%E4%B8%AD%E5%BF%83%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/"/>
+    <id>http://tylercao.coding.me/blog/2017/12/17/用户中心系统设计/</id>
     <published>2017-12-16T16:00:00.000Z</published>
     <updated>2018-04-15T07:52:08.000Z</updated>
     
@@ -136,34 +136,14 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>技术演讲需要准备什么</title>
-    <link href="http://caolinhua.me/2017/12/03/%E6%8A%80%E6%9C%AF%E6%BC%94%E8%AE%B2%E9%9C%80%E8%A6%81%E5%87%86%E5%A4%87%E4%BB%80%E4%B9%88/"/>
-    <id>http://caolinhua.me/2017/12/03/技术演讲需要准备什么/</id>
-    <published>2017-12-02T16:00:00.000Z</published>
-    <updated>2018-04-15T07:48:06.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近参加了 SA Summit 2017 的技术大会分享，在这边总结下并分享一下自己是如何准备的。请老司机们多提点建议。<br><a id="more"></a></p><h2 id="一、了解观众的诉求"><a href="#一、了解观众的诉求" class="headerlink" title="一、了解观众的诉求"></a>一、了解观众的诉求</h2><p>了解需求永远是做任何事的第一步，脱离了观众的诉求都是偏题的。</p><p>首先需要知道这次技术分享的主题大方向是什么？是分布式架构、前端架构，还是运维架构。<br>同时需要考虑到你的听众是谁？是 5 年以上的架构师，还是 3 年左右的工程师，不一样的听众背景决定了分享的侧重点，只有考虑到了听众的技术背景，才能有针对性的思考哪些内容可以详细解释，哪些可以一笔带过。</p><h2 id="二、好的开始是成功的一半"><a href="#二、好的开始是成功的一半" class="headerlink" title="二、好的开始是成功的一半"></a>二、好的开始是成功的一半</h2><p>开头的几分钟主要是自我介绍、演讲大纲介绍。一般自我介绍的时候，主要告诉大家</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是谁？</span><br><span class="line">来自什么公司？</span><br><span class="line">目前是什么职位及相关的从业经历</span><br></pre></td></tr></table></figure><p>表达好自我介绍后，一定要告诉听众此次演讲对大家有什么好处。听完之后大家会收获什么知识，能够解决什么问题。</p><p>如果安全的度过开始的三分钟，对应的紧张的情绪会极大的缓解。此时可以全神贯注的进行后面分享的内容。</p><p>举个这个分享用过的例子</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">大家好，我是来自 XX 公司的架构师 XXX </span><br><span class="line">我原先在百度负责过 XX 系统，具有高并发、大流量的架构经验</span><br><span class="line">接下来我会带着大家介绍 XX 公司 XX 系统的具体实践</span><br><span class="line">通过本次分享，希望大家能学到通过使用 XX 能很好的解决公司 XX 问题</span><br></pre></td></tr></table></figure><p>同时提点小的建议</p><ul><li>提前来到现场 ：与前排的听众进行简单的沟通，熟悉一下，可以减少很大的压力</li><li>分享前进行小调查 : 在坐的各位原来使用过这个 XX 技术吗？通过举手来进行互动与反馈</li></ul><h2 id="三、内容思路"><a href="#三、内容思路" class="headerlink" title="三、内容思路"></a>三、内容思路</h2><p>暖场后，最重要的就是演讲的思路，一般技术型演讲通过总分总的结构比较合适</p><blockquote><p>问题背景 - 方案对比 - 方案落地 - 方案收益 - 总结</p></blockquote><ul><li>问题背景 ： 了解下问题产生的原因是什么？为什么要解决这个问题？</li><li>方案对比 ： 带着听众进行方案的思路以及优劣对比，最好有真实的数据展示</li><li>方案落地 ： 让听众了解具体方案落地，有哪些需要注意的坑，通过什么方法能解决这些问题</li><li>方案收益 ： 落地之后，需要拿出真实的数据，体现出实施该方案的好处</li><li>总结 ： 总结下实施过程的经验，以及后续的一些规划</li></ul><h2 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a>四、总结</h2><p>最后演讲结束的时候，一定要进行总结，反复强调需要分享给听众的观点，最好不超过 3 个。这个部分不在多，而在于精，只要听众了解一个哪怕一个观点也是有收货的</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近参加了 SA Summit 2017 的技术大会分享，在这边总结下并分享一下自己是如何准备的。请老司机们多提点建议。&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="演讲分享" scheme="http://caolinhua.me/tags/%E6%BC%94%E8%AE%B2%E5%88%86%E4%BA%AB/"/>
+      <category term="架构设计" scheme="http://tylercao.coding.me/blog/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
   <entry>
     <title>容量规划</title>
-    <link href="http://caolinhua.me/2017/12/03/%E5%AE%B9%E9%87%8F%E8%A7%84%E5%88%92/"/>
-    <id>http://caolinhua.me/2017/12/03/容量规划/</id>
+    <link href="http://tylercao.coding.me/blog/2017/12/03/%E5%AE%B9%E9%87%8F%E8%A7%84%E5%88%92/"/>
+    <id>http://tylercao.coding.me/blog/2017/12/03/容量规划/</id>
     <published>2017-12-02T16:00:00.000Z</published>
     <updated>2018-04-15T07:51:16.000Z</updated>
     
@@ -177,14 +157,34 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+      <category term="架构设计" scheme="http://tylercao.coding.me/blog/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>技术演讲需要准备什么</title>
+    <link href="http://tylercao.coding.me/blog/2017/12/03/%E6%8A%80%E6%9C%AF%E6%BC%94%E8%AE%B2%E9%9C%80%E8%A6%81%E5%87%86%E5%A4%87%E4%BB%80%E4%B9%88/"/>
+    <id>http://tylercao.coding.me/blog/2017/12/03/技术演讲需要准备什么/</id>
+    <published>2017-12-02T16:00:00.000Z</published>
+    <updated>2018-04-15T07:48:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近参加了 SA Summit 2017 的技术大会分享，在这边总结下并分享一下自己是如何准备的。请老司机们多提点建议。<br><a id="more"></a></p><h2 id="一、了解观众的诉求"><a href="#一、了解观众的诉求" class="headerlink" title="一、了解观众的诉求"></a>一、了解观众的诉求</h2><p>了解需求永远是做任何事的第一步，脱离了观众的诉求都是偏题的。</p><p>首先需要知道这次技术分享的主题大方向是什么？是分布式架构、前端架构，还是运维架构。<br>同时需要考虑到你的听众是谁？是 5 年以上的架构师，还是 3 年左右的工程师，不一样的听众背景决定了分享的侧重点，只有考虑到了听众的技术背景，才能有针对性的思考哪些内容可以详细解释，哪些可以一笔带过。</p><h2 id="二、好的开始是成功的一半"><a href="#二、好的开始是成功的一半" class="headerlink" title="二、好的开始是成功的一半"></a>二、好的开始是成功的一半</h2><p>开头的几分钟主要是自我介绍、演讲大纲介绍。一般自我介绍的时候，主要告诉大家</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是谁？</span><br><span class="line">来自什么公司？</span><br><span class="line">目前是什么职位及相关的从业经历</span><br></pre></td></tr></table></figure><p>表达好自我介绍后，一定要告诉听众此次演讲对大家有什么好处。听完之后大家会收获什么知识，能够解决什么问题。</p><p>如果安全的度过开始的三分钟，对应的紧张的情绪会极大的缓解。此时可以全神贯注的进行后面分享的内容。</p><p>举个这个分享用过的例子</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">大家好，我是来自 XX 公司的架构师 XXX </span><br><span class="line">我原先在百度负责过 XX 系统，具有高并发、大流量的架构经验</span><br><span class="line">接下来我会带着大家介绍 XX 公司 XX 系统的具体实践</span><br><span class="line">通过本次分享，希望大家能学到通过使用 XX 能很好的解决公司 XX 问题</span><br></pre></td></tr></table></figure><p>同时提点小的建议</p><ul><li>提前来到现场 ：与前排的听众进行简单的沟通，熟悉一下，可以减少很大的压力</li><li>分享前进行小调查 : 在坐的各位原来使用过这个 XX 技术吗？通过举手来进行互动与反馈</li></ul><h2 id="三、内容思路"><a href="#三、内容思路" class="headerlink" title="三、内容思路"></a>三、内容思路</h2><p>暖场后，最重要的就是演讲的思路，一般技术型演讲通过总分总的结构比较合适</p><blockquote><p>问题背景 - 方案对比 - 方案落地 - 方案收益 - 总结</p></blockquote><ul><li>问题背景 ： 了解下问题产生的原因是什么？为什么要解决这个问题？</li><li>方案对比 ： 带着听众进行方案的思路以及优劣对比，最好有真实的数据展示</li><li>方案落地 ： 让听众了解具体方案落地，有哪些需要注意的坑，通过什么方法能解决这些问题</li><li>方案收益 ： 落地之后，需要拿出真实的数据，体现出实施该方案的好处</li><li>总结 ： 总结下实施过程的经验，以及后续的一些规划</li></ul><h2 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a>四、总结</h2><p>最后演讲结束的时候，一定要进行总结，反复强调需要分享给听众的观点，最好不超过 3 个。这个部分不在多，而在于精，只要听众了解一个哪怕一个观点也是有收货的</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近参加了 SA Summit 2017 的技术大会分享，在这边总结下并分享一下自己是如何准备的。请老司机们多提点建议。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="演讲分享" scheme="http://tylercao.coding.me/blog/tags/%E6%BC%94%E8%AE%B2%E5%88%86%E4%BA%AB/"/>
     
   </entry>
   
   <entry>
     <title>技术管理</title>
-    <link href="http://caolinhua.me/2017/12/03/%E6%8A%80%E6%9C%AF%E7%AE%A1%E7%90%86/"/>
-    <id>http://caolinhua.me/2017/12/03/技术管理/</id>
+    <link href="http://tylercao.coding.me/blog/2017/12/03/%E6%8A%80%E6%9C%AF%E7%AE%A1%E7%90%86/"/>
+    <id>http://tylercao.coding.me/blog/2017/12/03/技术管理/</id>
     <published>2017-12-02T16:00:00.000Z</published>
     <updated>2018-04-15T07:50:17.000Z</updated>
     
@@ -197,14 +197,14 @@
     </summary>
     
     
-      <category term="研发管理" scheme="http://caolinhua.me/tags/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/"/>
+      <category term="研发管理" scheme="http://tylercao.coding.me/blog/tags/%E7%A0%94%E5%8F%91%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>分布式一致性想法</title>
-    <link href="http://caolinhua.me/2017/11/27/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%80%E8%87%B4%E6%80%A7%E7%9A%84%E6%83%B3%E6%B3%95/"/>
-    <id>http://caolinhua.me/2017/11/27/分布式一致性的想法/</id>
+    <link href="http://tylercao.coding.me/blog/2017/11/27/%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%80%E8%87%B4%E6%80%A7%E7%9A%84%E6%83%B3%E6%B3%95/"/>
+    <id>http://tylercao.coding.me/blog/2017/11/27/分布式一致性的想法/</id>
     <published>2017-11-26T16:00:00.000Z</published>
     <updated>2018-04-15T07:52:54.000Z</updated>
     
@@ -217,16 +217,16 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+      <category term="架构设计" scheme="http://tylercao.coding.me/blog/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
-      <category term="分布式" scheme="http://caolinhua.me/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
+      <category term="分布式" scheme="http://tylercao.coding.me/blog/tags/%E5%88%86%E5%B8%83%E5%BC%8F/"/>
     
   </entry>
   
   <entry>
     <title>架构设计思路</title>
-    <link href="http://caolinhua.me/2017/11/19/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF/"/>
-    <id>http://caolinhua.me/2017/11/19/架构设计思路/</id>
+    <link href="http://tylercao.coding.me/blog/2017/11/19/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1%E6%80%9D%E8%B7%AF/"/>
+    <id>http://tylercao.coding.me/blog/2017/11/19/架构设计思路/</id>
     <published>2017-11-18T16:00:00.000Z</published>
     <updated>2018-04-15T07:50:33.000Z</updated>
     
@@ -243,14 +243,14 @@
     </summary>
     
     
-      <category term="架构设计" scheme="http://caolinhua.me/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
+      <category term="架构设计" scheme="http://tylercao.coding.me/blog/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/"/>
     
   </entry>
   
   <entry>
     <title>从 ELK 到 EFK 演进</title>
-    <link href="http://caolinhua.me/2017/11/11/%E4%BB%8EELK%20%E5%88%B0%20EFK/"/>
-    <id>http://caolinhua.me/2017/11/11/从ELK 到 EFK/</id>
+    <link href="http://tylercao.coding.me/blog/2017/11/11/%E4%BB%8EELK%20%E5%88%B0%20EFK/"/>
+    <id>http://tylercao.coding.me/blog/2017/11/11/从ELK 到 EFK/</id>
     <published>2017-11-10T16:00:00.000Z</published>
     <updated>2018-04-15T07:49:39.000Z</updated>
     
@@ -263,18 +263,18 @@
     </summary>
     
     
-      <category term="技术" scheme="http://caolinhua.me/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://tylercao.coding.me/blog/tags/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="ELK" scheme="http://caolinhua.me/tags/ELK/"/>
+      <category term="ELK" scheme="http://tylercao.coding.me/blog/tags/ELK/"/>
     
-      <category term="Elasticsearch" scheme="http://caolinhua.me/tags/Elasticsearch/"/>
+      <category term="Elasticsearch" scheme="http://tylercao.coding.me/blog/tags/Elasticsearch/"/>
     
   </entry>
   
   <entry>
     <title>Exception总结</title>
-    <link href="http://caolinhua.me/2017/09/24/Exception%E6%80%BB%E7%BB%93/"/>
-    <id>http://caolinhua.me/2017/09/24/Exception总结/</id>
+    <link href="http://tylercao.coding.me/blog/2017/09/24/Exception%E6%80%BB%E7%BB%93/"/>
+    <id>http://tylercao.coding.me/blog/2017/09/24/Exception总结/</id>
     <published>2017-09-23T16:00:00.000Z</published>
     <updated>2018-04-15T07:52:25.000Z</updated>
     
@@ -287,14 +287,14 @@
     </summary>
     
     
-      <category term="技术" scheme="http://caolinhua.me/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://tylercao.coding.me/blog/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>一个项目怎么开发出来</title>
-    <link href="http://caolinhua.me/2017/09/23/%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%E5%87%BA%E6%9D%A5%E7%9A%84%EF%BC%9F/"/>
-    <id>http://caolinhua.me/2017/09/23/一个项目怎么开发出来的？/</id>
+    <link href="http://tylercao.coding.me/blog/2017/09/23/%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E6%80%8E%E4%B9%88%E5%BC%80%E5%8F%91%E5%87%BA%E6%9D%A5%E7%9A%84%EF%BC%9F/"/>
+    <id>http://tylercao.coding.me/blog/2017/09/23/一个项目怎么开发出来的？/</id>
     <published>2017-09-22T16:00:00.000Z</published>
     <updated>2018-04-15T07:51:56.000Z</updated>
     
@@ -311,16 +311,16 @@
     </summary>
     
     
-      <category term="技术" scheme="http://caolinhua.me/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://tylercao.coding.me/blog/tags/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="项目管理" scheme="http://caolinhua.me/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
+      <category term="项目管理" scheme="http://tylercao.coding.me/blog/tags/%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
   <entry>
     <title>搜索平台化之路</title>
-    <link href="http://caolinhua.me/2017/07/23/%E6%90%9C%E7%B4%A2%E5%AE%9E%E8%B7%B5/"/>
-    <id>http://caolinhua.me/2017/07/23/搜索实践/</id>
+    <link href="http://tylercao.coding.me/blog/2017/07/23/%E6%90%9C%E7%B4%A2%E5%AE%9E%E8%B7%B5/"/>
+    <id>http://tylercao.coding.me/blog/2017/07/23/搜索实践/</id>
     <published>2017-07-22T16:00:00.000Z</published>
     <updated>2018-04-15T07:51:27.000Z</updated>
     
@@ -337,16 +337,16 @@
     </summary>
     
     
-      <category term="技术" scheme="http://caolinhua.me/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://tylercao.coding.me/blog/tags/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="Elasticsearch" scheme="http://caolinhua.me/tags/Elasticsearch/"/>
+      <category term="Elasticsearch" scheme="http://tylercao.coding.me/blog/tags/Elasticsearch/"/>
     
   </entry>
   
   <entry>
     <title>分布式跟踪调研与设计</title>
-    <link href="http://caolinhua.me/2017/07/23/%E5%88%86%E5%B8%83%E5%BC%8F%E8%B7%9F%E8%B8%AA%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%A0%94/"/>
-    <id>http://caolinhua.me/2017/07/23/分布式跟踪系统调研/</id>
+    <link href="http://tylercao.coding.me/blog/2017/07/23/%E5%88%86%E5%B8%83%E5%BC%8F%E8%B7%9F%E8%B8%AA%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%A0%94/"/>
+    <id>http://tylercao.coding.me/blog/2017/07/23/分布式跟踪系统调研/</id>
     <published>2017-07-22T16:00:00.000Z</published>
     <updated>2018-04-15T07:49:47.000Z</updated>
     
@@ -359,9 +359,9 @@
     </summary>
     
     
-      <category term="技术" scheme="http://caolinhua.me/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="http://tylercao.coding.me/blog/tags/%E6%8A%80%E6%9C%AF/"/>
     
-      <category term="分布式跟踪" scheme="http://caolinhua.me/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E8%B7%9F%E8%B8%AA/"/>
+      <category term="分布式跟踪" scheme="http://tylercao.coding.me/blog/tags/%E5%88%86%E5%B8%83%E5%BC%8F%E8%B7%9F%E8%B8%AA/"/>
     
   </entry>
   
