@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> 秒杀架构设计 · 技术成长</title><meta name="description" content="秒杀架构设计 - 曹林华"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://tylercao.coding.me/blog/atom.xml" title="技术成长"></head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">博客</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">归档</a></li><li class="nav-list-item"><a href="/resume" target="_self" class="nav-list-link">关于</a></li><li class="nav-list-item"><a href="https://weibo.com/caolinhua" target="_blank" class="nav-list-link">微博</a></li><li class="nav-list-item"><a href="https://github.com/tylercao" target="_blank" class="nav-list-link">GITHUB</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">秒杀架构设计</h1><div class="post-info">2018年3月11日</div><div class="post-content"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近在部门内部分享了原来做电商领域做秒杀活动的整体思路，大家对这个分享反馈还不错，所依我就整理出来，给大家参考参考<br><a id="more"></a></p>
+<h1 id="业务介绍"><a href="#业务介绍" class="headerlink" title="业务介绍"></a>业务介绍</h1><p><img src="/img/jd.png" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">什么是秒杀？通俗一点讲就是网络商家为促销等目的组织的网上限时抢购活动</span><br></pre></td></tr></table></figure>
+<p>比如说京东秒杀，就是一种定时定量秒杀，在规定的时间内，无论商品是否秒杀完毕，该场次的秒杀活动都会结束。这种秒杀，对时间不是特别严格，只要下手快点，秒中的概率还是比较大的。</p>
+<p>还有淘宝出现过的一元抢购，一般都是限量 1 件商品，同时价格低到「令人发齿」，这种秒杀一般都在开始时间 1 秒内都已经抢光了，参与这个秒杀一般都是看运气的，不必太强求</p>
+<h1 id="业务特点"><a href="#业务特点" class="headerlink" title="业务特点"></a>业务特点</h1><p><img src="/img/tedian.png" alt=""></p>
+<h4 id="瞬时并发量大"><a href="#瞬时并发量大" class="headerlink" title="瞬时并发量大"></a>瞬时并发量大</h4><p>秒杀时会有大量用户在同一时间进行抢购，瞬时并发访问量突增 10 倍，甚至 100 倍以上。</p>
+<h4 id="库存量少"><a href="#库存量少" class="headerlink" title="库存量少"></a>库存量少</h4><p>一般都是请求量比当前活动商品量多很多，只有少部分用户秒杀成功。</p>
+<h4 id="业务简单"><a href="#业务简单" class="headerlink" title="业务简单"></a>业务简单</h4><p>流程比较简单，一般都是下订单减库存</p>
+<h1 id="技术难点"><a href="#技术难点" class="headerlink" title="技术难点"></a>技术难点</h1><p><img src="/img/dif.png" alt=""></p>
+<h4 id="现有业务的冲击"><a href="#现有业务的冲击" class="headerlink" title="现有业务的冲击"></a>现有业务的冲击</h4><p>一般秒杀是营销活动中的一种，如果和其他营销活动应用部署在同一服务器上，肯定会对现有业务形成冲击，极端情况下可能导致整个电商系统服务不好用</p>
+<h4 id="直接下订单"><a href="#直接下订单" class="headerlink" title="直接下订单"></a>直接下订单</h4><p>通常情况下，下单页面是一个正常的 URL 地址，需要控制在秒杀开始前，不能下订单，只能浏览对应活动商品的信息。简单来说，需要 Disable 订单按钮</p>
+<h4 id="页面流量突增"><a href="#页面流量突增" class="headerlink" title="页面流量突增"></a>页面流量突增</h4><p>秒杀活动时候，很多用户都会请求对应商品页面，会造成后台服务器的流量突增，同时对应的网络带宽增加，需要控制商品页面的流量不会对对应后台服务器、DB、Redis 等组件的压力</p>
+<h1 id="架构设计思想"><a href="#架构设计思想" class="headerlink" title="架构设计思想"></a>架构设计思想</h1><p><img src="/img/xuef.png" alt=""></p>
+<h4 id="限流"><a href="#限流" class="headerlink" title="限流"></a>限流</h4><p>由于活动库存量一般都是很少，对应的只有少部分用户才能秒杀成功。所以我们需要限制大部分用户流量，只准少量用户流量进入后端服务器</p>
+<h4 id="削峰"><a href="#削峰" class="headerlink" title="削峰"></a>削峰</h4><p>秒杀开始的那一瞬间，会有大量用户冲击进来，所以在开始时候会有一个瞬间流量峰值。如何把瞬间的流量峰值变得更平缓写，也是设计该系统的重要因素。实现流量削峰填谷一般的采取措施，主要采用缓存和 MQ 中间件</p>
+<h4 id="异步"><a href="#异步" class="headerlink" title="异步"></a>异步</h4><p>秒杀其实可以当做高并发系统来处理，在这个时候，需要业务上做兼容，将我们同步的业务，设计成异步处理的任务</p>
+<h4 id="缓存"><a href="#缓存" class="headerlink" title="缓存"></a>缓存</h4><p>秒杀系统的瓶颈主要体现在下订单、扣减库存流程中。这些流程中主要用到 OLTP 的数据库，类似 MySQL、SQLServer、Oracle。由于数据库底层采用 B+ 树的储存结构，对应我们随机写入与读取的效率，相对较低。如果我们把部分业务逻辑迁移到内存的缓存或者 Redis 中，会极大的提高并发效率</p>
+<h1 id="整体架构"><a href="#整体架构" class="headerlink" title="整体架构"></a>整体架构</h1><p><img src="/img/arch.png" alt=""></p>
+<h2 id="客户端优化"><a href="#客户端优化" class="headerlink" title="客户端优化"></a>客户端优化</h2><p>客户端优化主要有两个问题</p>
+<h4 id="秒杀页面"><a href="#秒杀页面" class="headerlink" title="秒杀页面"></a>秒杀页面</h4><p>秒杀活动开始前，其实就有很多用户访问该页面了。如果这个页面的一些资源，比如 CSS、JS、图片、商品详情等，都访问后端服务器，甚至 DB 的话，服务肯定会出现不可用的情况。所以一般我们会把这个页面整体进行静态化，并将页面静态化之后的页面分发到 CDN 边缘节点上，起到压力分散的作用</p>
+<h4 id="防止提前下单"><a href="#防止提前下单" class="headerlink" title="防止提前下单"></a>防止提前下单</h4><p>防止提前下单主要是在上面静态化页面中加入一个 JS 文件引用，该 JS 文件包含活动是否开始的标记以及开始时的动态下单页面的 URL 参数。同时，这个 JS 文件是不会被 CDN 系统缓存的，会一直请求后端服务的，所以这个 JS 文件一定要很小。当活动快开始的时候（比如提前），通过后台接口修改这个 JS 文件使之生效</p>
+<h2 id="API-接入层优化"><a href="#API-接入层优化" class="headerlink" title="API 接入层优化"></a>API 接入层优化</h2><p>客户端优化，对于不是搞计算机方面的用户还是可以防止住的。但是稍有一定网络基础的用户就起不到作用力，因此服务端也需要控制，不能完全信任客户端的操作。一般控制分为 2 大类</p>
+<h4 id="限制用户维度访问频率"><a href="#限制用户维度访问频率" class="headerlink" title="限制用户维度访问频率"></a>限制用户维度访问频率</h4><p>针对同一个用户（ Userid 维度），做页面级别缓存，单元时间内的请求，统一走缓存，返回同一个页面</p>
+<h4 id="限制商品维度访问频率"><a href="#限制商品维度访问频率" class="headerlink" title="限制商品维度访问频率"></a>限制商品维度访问频率</h4><p>大量同时间段查询同一个商品时，可以做页面级别缓存，不管下回是谁来访问，只要是这个页面就直接返回</p>
+<h2 id="SOA-服务层优化"><a href="#SOA-服务层优化" class="headerlink" title="SOA 服务层优化"></a>SOA 服务层优化</h2><p>上面两层只能限制异常用户访问，如果秒杀活动运营的比较好，很多用户都参加了，就会造成系统压力过大甚至宕机，因此需要后端流量控制</p>
+<p>对于后端系统的控制可以通过消息队列、异步处理、提高并发等方式解决。对于超过系统水位线的请求，直接采取 「Fail-Fast」原则，拒绝掉</p>
+<h1 id="秒杀整体流程图"><a href="#秒杀整体流程图" class="headerlink" title="秒杀整体流程图"></a>秒杀整体流程图</h1><p><img src="/img/detail.png" alt=""></p>
+<p>秒杀系统核心在于层层过滤，逐渐递减瞬时访问压力，减少最终对数据库的冲击。通过上面流程图就会发现压力最大的地方在哪里？ MQ 排队服务，只要 MQ 排队服务顶住，后面下订单与扣减库存的压力都是我们自己能控制的，根据数据库的压力，可以定制化创建订单消费者的数量，避免出现消费者梳理过大，导致数据库挂了。</p>
+<p>库存服务专门为秒送的商品提高库存管理，实现提前锁定库存，避免超卖的现象。同时，通过超时处理任务发现用户已抢到商品，但未付款的订单，并在规定付款时间后，将恢复库存</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>核心思想：层层过滤</p>
+<ul>
+<li>尽量将请求拦截在上游，降低下游的压力</li>
+<li>充分利用缓存与消息队列，提高请求处理速度以及削峰填谷的作用</li>
+</ul>
+<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ul>
+<li>秒杀业务架构优化之路<br>「<a href="http://www.infoq.com/cn/articles/flash-deal-architecture-optimization」" target="_blank" rel="noopener">http://www.infoq.com/cn/articles/flash-deal-architecture-optimization」</a></li>
+<li>互联网秒杀业务设计 「<a href="https://baijia.baidu.com/s?old_id=108134」" target="_blank" rel="noopener">https://baijia.baidu.com/s?old_id=108134」</a></li>
+<li>高并发秒杀系统架构设计 「<a href="https://zhuanlan.zhihu.com/p/25368538」" target="_blank" rel="noopener">https://zhuanlan.zhihu.com/p/25368538」</a></li>
+</ul>
+</div></article></div></main><footer><div class="paginator"><a href="/2018/02/04/区块链认知/" class="next">NEXT</a></div><div class="copyright"><p>© 2016 - 2018 <a href="http://tylercao.coding.me/blog">曹林华</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
